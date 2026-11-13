@@ -1,3 +1,9 @@
+![SQL](https://img.shields.io/badge/SQL-Database-blue)
+![Apache](https://img.shields.io/badge/Apache-Web_Server-red)
+![ModSecurity](https://img.shields.io/badge/ModSecurity-WAF-orange)
+![OWASP CRS](https://img.shields.io/badge/OWASP-CRS-black)
+![VMware](https://img.shields.io/badge/VMware-Lab-607078)
+
 # 🛡️ SQL Injection Security Lab
 
 A practical cybersecurity lab focused on understanding, exploiting, and mitigating SQL Injection vulnerabilities in a controlled virtualized environment.
@@ -5,7 +11,19 @@ A practical cybersecurity lab focused on understanding, exploiting, and mitigati
 The project demonstrates SQL Injection attacks and explores defensive techniques using Prepared Statements and ModSecurity with OWASP Core Rule Set (CRS) on Apache.
 
 ---
+## Table of Contents
 
+- [Overview](#overview)
+- [Project Objectives](#project-objectives)
+- [Vulnerability Background](#vulnerability-background)
+- [Lab Environment](#lab-environment)
+- [Attack Demonstration](#attack-demonstration)
+- [Mitigation and Prevention](#mitigation-and-prevention)
+- [Video Demonstrations](#video-demonstrations)
+- [Documentation](#documentation)
+- [Disclaimer](#disclaimer)
+---
+<a id="overview"></a>
 ## 📌 Overview
 
 SQL Injection is a web application vulnerability that occurs when untrusted user input is improperly incorporated into SQL queries. It can potentially allow attackers to manipulate database operations and access unauthorized information.
@@ -17,6 +35,7 @@ The lab covers two main activities:
 - **Attack Demonstration:** Exploring SQL Injection vulnerabilities and their potential impact.
 - **Mitigation Demonstration:** Applying defensive measures to reduce SQL Injection risks.
 
+<a id="project-objectives"></a>
 ## ✨ Project Objectives
 
 - Understand the principles and security risks of SQL Injection.
@@ -26,6 +45,7 @@ The lab covers two main activities:
 - Deploy ModSecurity with OWASP CRS on Apache as an additional security layer.
 - Examine the effectiveness of the implemented defensive measures.
 
+<a id="vulnerability-background"></a>
 ## 🔍 Vulnerability Background
 
 SQL Injection occurs when user-controlled input is processed as part of a dynamically constructed SQL statement without proper protection.
@@ -37,6 +57,7 @@ Depending on the vulnerable application and database configuration, successful e
 - Manipulate database records.
 - Perform other unauthorized database operations.
 
+<a id="lab-environment"></a>
 ## 🖥️ Lab Environment
 
 The experiment was conducted in a virtualized environment using VMware.
@@ -53,13 +74,15 @@ The experiment was conducted in a virtualized environment using VMware.
 
 *The virtual machines and complete lab environment are not included in this repository.*
 
+<a id="attack-demonstration"></a>
 ## ⚔️ Attack Demonstration
 
 The attack phase focuses on identifying and exploiting an SQL Injection vulnerability within the lab application.
 
 The demonstration explores how improperly handled input can influence SQL query execution and illustrates the potential impact on application and database security.
 
-## 🔐 Mitigation & Prevention
+<a id="mitigation-and-prevention"></a>
+## 🔐 Mitigation  Prevention
 
 Two complementary defensive approaches were implemented.
 
@@ -86,6 +109,7 @@ The two approaches serve different purposes:
 
 Using both approaches provides layered protection rather than relying on the WAF as a replacement for secure application development.
 
+<a id="video-demonstrations"></a>
 ## 🎬 Video Demonstrations
 
 The following videos document the practical attack and mitigation experiments.
@@ -102,13 +126,14 @@ Demonstrates the implementation of Prepared Statements and ModSecurity with OWAS
 
 **[▶ Watch Mitigation Demonstration](https://youtu.be/k8MkWZNxg6c)**
 
+<a id="documentation"></a>
 ## 📄 Documentation
 
 The accompanying project report provides further details about the lab environment, vulnerability demonstration, experimental process, observations, and mitigation techniques.
 
 - [SQL Injection Demo Report](SQL_Injection_Demo_Report.pdf)
 
-
+<a id="disclaimer"></a>
 ## ⚠️ Disclaimer
 
 This project was conducted in an isolated virtual lab environment for educational and cybersecurity research purposes.
