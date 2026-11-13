@@ -106,7 +106,7 @@ Demonstrates the implementation of Prepared Statements and ModSecurity with OWAS
 
 The accompanying project report provides further details about the lab environment, vulnerability demonstration, experimental process, observations, and mitigation techniques.
 
-- [SQL Injection Demo Report](docs/SQL_Injection_Demo_Report.docs)
+- [SQL Injection Demo Report](SQL_Injection_Demo_Report.pdf)
 
 
 ## ⚠️ Disclaimer
